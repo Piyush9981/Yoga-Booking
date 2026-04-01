@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-section{
+    text-align: left;
+    background: linear-gradient(to left, green, white);
+    padding: 100px 50px;
+}
+
+.main-heading{
+    font-size: 3.5rem;
+}
+
+.main-desc{
+    font-size: 1.4rem;
+    padding: 30px 0px;
+    color: #016630;
+}
+
+.get-started-btn{
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #016630;
+    border-radius: 10px;
+    color: white;
+    background-color: #016630;
+    padding: 10px 15px;
+}
+
+.cards-div{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.main-heading2{
+    padding: 30px 40px;
+    color: #016630;
+}
+
+.card{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: -5px 5px 10px gray;
+    text-align: center;
+}
+
+.event-name{
+    padding: 10px 0px;
+    font-size: 1.3rem;
+}
+
+.date-time{
+    padding: 10px 0px;
+}
+
+.detail-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #016630;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0px;
+    padding: 7px 15px;
+
+}

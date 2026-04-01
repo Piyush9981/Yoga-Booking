@@ -1,0 +1,98 @@
+html, body {
+    min-height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    padding: 30px 50px;
+    box-shadow: -5px 5px 10px gray;
+}
+
+section.main{
+    flex: 1;
+    padding-top: 100px;
+}
+
+.menu-list{
+    display: flex;
+    gap: 30px;
+}
+
+.menu-list-elements{
+    list-style: none;
+}
+
+.login-div{
+    display: flex;
+    gap: 30px;
+}
+
+.menu-links{
+    text-decoration: none;
+    color: green;
+    font-size: 1.1rem;
+}
+
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #016630;
+}
+
+.login-btn{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #016630;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: #016630;
+}
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #016630;
+    z-index: 2;
+    padding: 30px 50px;
+}
+
+.copyrights-div{
+    width: 100%;
+    padding: 0;
+}
+
+.copyrights{
+    text-decoration: none;
+    color: white;
+}
+
+.social-list-elements{
+    list-style: none;
+    line-height: 25px;
+}
+
+.social-links{
+    color: white;
+}

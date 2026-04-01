@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="signup-section">
+    <div class="signup-form-div">
+        <h1 class="signup-heading">Create a New Account</h1>
+        <form>
+            <label for="name">Full name</label><br>
+            <input type="email" name="signup" id="name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="signup" id="email"><br>
+            <label for="pass">Passwords</label><br>
+            <input type="password" name="signup" id="pass"> <br>
+            <label for="pass-con">Confirm Passwords</label><br>
+            <input type="password" name="signup" id="pass-con"> <br>
+            <button type="submit" class="signup-form-btn">Sign Up</button>
+        </form>
+    </div>
+</section>
+{% endblock %}

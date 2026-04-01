@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link rel="stylesheet" href="../static/css/signup.css">
+</head>
+
+<body>
+    <nav class="navabar">
+        <div class="logo-div">
+            <a href="home" class="logo">PragyaYoga</a>
+        </div>
+        <div class="menu-div">
+            <ul class="menu-list">
+                <li class="menu-list-elements"><a href="home" class="menu-links">Home</a></li>
+                <li class="menu-list-elements"><a href="#" class="menu-links">Events</a></li>
+                <li class="menu-list-elements"><a href="#" class="menu-links">Booking</a></li>
+            </ul>
+        </div>
+        <div class="login-div">
+            <a href="login" class="login-btn">Log-in</a>
+            <a href="signup" class="login-btn">Sign-up</a>
+        </div>
+    </nav>
+
+    <section class="main">
+        {% block content %} {% endblock %}
+    </section>
+
+    <footer class="footer-section">
+        <div class="copyrights-div">
+            <a href="#" class="copyrights"> &copy; 2026. All Rights Reserved</a>
+        </div>
+        <div class="social-links-div">
+            <ul class="social-list">
+                <li class="social-list-elements"><a href="#" class="social-links">Instagram</a></li>
+                <li class="social-list-elements"><a href="#" class="social-links">Facebook</a></li>
+                <li class="social-list-elements"><a href="#" class="social-links">YouTube</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
