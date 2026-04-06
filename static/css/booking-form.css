@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.booking-section {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.booking-form-div {
+    padding: 50px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: -5px 5px 10px gray;
+}
+
+.booking-event-title {
+    font-size: 2.3rem;
+    padding: 5px 10px;
+    border-bottom: 2px solid #016630;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.booking-form-lable{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+#yourage{
+    margin-left: 15px;
+}
+
+.total-price{
+    color: #016630;
+    padding: 10px;
+}
+
+.pay-btn{
+    color: white;
+    font-weight: bold;
+    background-color: #016630;
+    padding: 15px 40px;
+    border-radius: 10px;
+    position: relative;
+
+}

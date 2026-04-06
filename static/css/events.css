@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.event-upcomming{
+    color: #016630;
+    padding: 30px 50px;
+}
+.event-cards-div{
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 50px 30px;
+    gap: 50px;
+}
+
+.main-heading2{
+    padding: 30px 40px;
+    color: #016630;
+}
+
+.event-card{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: -5px 5px 10px gray;
+    text-align: center;
+}
+
+.event-name{
+    padding: 10px 0px;
+    font-size: 1.3rem;
+}
+
+.event-date-time{
+    padding: 10px 0px;
+}
+
+.event-price{
+    padding: 10px 0px;
+    color: #016630;
+}
+
+.event-booking-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #016630;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0px;
+    padding: 7px 15px;
+
+}
+
+.privious-event-cards-div{
+    text-align: center;
+    margin: 100px;
+    color: gray;
+}

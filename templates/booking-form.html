@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title%}Session Booking {% endblock %}
+
+{% block content %}
+<section class="booking-section">
+    <div class="booking-form-div">
+        <h1 class="booking-event-title">Session Name: " {{event.title}} "</h1>
+        <form>
+            <label for="seats" class="booking-form-lable">Select Seats: </label>
+            <select>
+                <option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option>
+            </select><br>
+            <label for="yourname" class="booking-form-lable">Your Name:</label>
+            <input type="text" id="yourname" class="booking-form-input" required><br>
+            <label for="youage" class="booking-form-lable">Your Age:</label>
+            <input type="number" id="yourage" class="booking-form-input" required>
+            <h3 class="total-price">Total Price: $399</h3>
+            <button type="submit" class="pay-btn">Pay Now</button>
+        </form>
+    </div>
+</section>
+{% endblock %}
