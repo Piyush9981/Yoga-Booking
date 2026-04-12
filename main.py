@@ -42,7 +42,7 @@ def signupsubmit():
     email = request.form.get('email')
     password = request.form.get('pass')
     confirmpassword = request.form.get('confirmpass')
-    if password == confirmpassword and len(password) >= 8:
+    if password == confirmpassword and len(password) >= 8 :
         user_profile.append({
             "name": name, 
             "email": email, 
