@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+import os
 
 app = Flask(__name__)
 
@@ -26,6 +27,9 @@ def signup():
     return render_template("signup.html")
 
 @app.route("/events")
+def events():
+    return render_template("events.html")
+@app.route("/booking")
 def events():
     return render_template("events.html")
 
@@ -58,4 +62,6 @@ def bookingform(event_id):
     event = next((eve for eve in event_data if eve["id"] == event_id), None)
     return render_template("booking-form.html", event=event)
 
-app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)

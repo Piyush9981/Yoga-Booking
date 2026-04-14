@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} {% endblock %}</title>
-    <link rel="stylesheet" href="../static/css/style.css">
-    <link rel="stylesheet" href="../static/css/index.css">
-    <link rel="stylesheet" href="../static/css/login.css">
-    <link rel="stylesheet" href="../static/css/signup.css">
-    <link rel="stylesheet" href="../static/css/events.css">
-    <link rel="stylesheet" href="../static/css/booking-form.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/events.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/signup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/booking.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/booking-form.css') }}">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
             <ul class="menu-list">
                 <li class="menu-list-elements"><a href="/" class="menu-links">Home</a></li>
                 <li class="menu-list-elements"><a href="/events" class="menu-links">Events</a></li>
-                <li class="menu-list-elements"><a href="#" class="menu-links">Booking</a></li>
+                <li class="menu-list-elements"><a href="/booking" class="menu-links">Booking</a></li>
             </ul>
         </div>
         <div class="login-div">
