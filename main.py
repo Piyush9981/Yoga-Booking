@@ -30,7 +30,7 @@ def signup():
 def events():
     return render_template("events.html")
 @app.route("/booking")
-def events():
+def booking():
     return render_template("events.html")
 
 @app.route("/loginsubmit", methods=["POST"])
