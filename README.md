@@ -21,4 +21,13 @@ Users can browse yoga sessions, book events, and manage their bookings.
 - <img width="1920" height="1080" alt="booking-form" src="https://github.com/user-attachments/assets/64b1e9e2-d425-4578-b3ac-76a6939d9510" />
 
 ## Live Demo
-[https://your-website-link.com](https://yoga-booking-piyush.onrender.com/)
+[https://yoga-booking-piyush.onrender.com](https://yoga-booking-piyush.onrender.com/)
+
+## Future Improvements
+- Add payment integration
+- Improve UI/UX
+- Add Database
+- Use of Javascript
+
+## Author
+Piyush 
