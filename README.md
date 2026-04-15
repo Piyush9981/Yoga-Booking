@@ -13,5 +13,12 @@ Users can browse yoga sessions, book events, and manage their bookings.
 - Backend: Python (Flask)
 
 ## Screenshots
-![Home Page](images/home.png)
-![Booking Page](images/booking.png)
+### Home Page
+- <img width="1920" height="1080" alt="home" src="https://github.com/user-attachments/assets/25e9f968-5b34-47dc-96b0-b75a7bb65af0" />
+### Event Page
+- <img width="1920" height="1080" alt="event" src="https://github.com/user-attachments/assets/3d348c71-cc6c-400b-a4c5-a56bde20a624" />
+### Booking Page
+- <img width="1920" height="1080" alt="booking-form" src="https://github.com/user-attachments/assets/64b1e9e2-d425-4578-b3ac-76a6939d9510" />
+
+## Live Demo
+[https://your-website-link.com](https://yoga-booking-piyush.onrender.com/)
